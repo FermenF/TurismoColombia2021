@@ -1,10 +1,27 @@
-import React from "react";
+import React, {useState} from "react";
 import MapCol from "../components/map/mapCol"
 import Video from "../components/video/Video";
+import { Button } from "antd";
 
 import './Home.css';
 
 export default function Home(){
+    
+ const [isModalVisible, setIsModalVisible] = useState(false);
+
+ const showModal = () => {
+   setIsModalVisible(true);
+ };
+
+ const handleOk = () => {
+   setIsModalVisible(false);
+ };
+
+ const handleCancel = () => {
+   setIsModalVisible(false);
+ };
+    
+
     return (
         <section>
             <section className="Home">
@@ -57,9 +74,19 @@ export default function Home(){
          </div>
             </section>
             <section className="contentMap">
-                
+                <MapCol />
             </section>
+            <div>
+            <Button type="primary" onClick={showModal}>
+            Open Modal
+            </Button>
+            </div>
+            
+            
+           
         </section>
     )
 }
+
+
 

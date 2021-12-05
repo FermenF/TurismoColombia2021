@@ -8,15 +8,15 @@ import "./Header.css";
 export default function Header(){
     return(
         <header>
+            
           <nav>
               <div className="location">
               <FontAwesomeIcon className="iconLocation" icon={faMapMarkedAlt}/>
               </div>
               <div className="navigation">
-                  <div className="nav-page">TextHeader</div>
-                  <div className="nav-page">TextHeader</div>
-                  <div className="nav-page">TextHeader</div>
-                  <div className="nav-page">TextHeader</div>
+                  <div className="nav-page"><a href="">TextHeader</a></div>
+                  <div className="nav-page"><a href="">TextHeader</a></div>
+                  <div className="nav-page"><a href="">TextHeader</a></div>
               </div>
               <div className="search">
                   <div className="container__search">

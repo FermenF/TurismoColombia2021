@@ -22,11 +22,15 @@ nav{
 }
 
 .nav-page{
-    padding: 20px;
+    padding: 15px;
     margin: auto 1px;
-    color: rgba(255, 255, 255, 0.7);
     cursor: pointer;
     letter-spacing: 0.3px;
+}
+
+.nav-page a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .iconLocation{
@@ -81,3 +85,4 @@ nav{
 .search__input:hover{
     background: #fff;
 }
+

@@ -2,6 +2,11 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser")
 
+const {API_VERSION } = require('./config');
+
+const userRoutes = require("./routers/user");
+const sitioRoutes = require("./routers/sitio")
+
 const app = express();
 app.use(cors());
 app.use(bodyParser.urlencoded({extended: false}));
@@ -19,5 +24,8 @@ app.all("*", (req, res, next) => {
      );
      next();
  });
+
+ app.use(`/api/${API_VERSION}`, userRoutes);
+ app.use(`/api/${API_VERSION}`, sitioRoutes);
  
  module.exports = app;

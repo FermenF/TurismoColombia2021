@@ -1,36 +1,52 @@
 .containerMap{
-    width: 50%;
-    margin: 25px 0px 0px 30px;
+    width: 40%;
+    padding: 20px 5px 0 10px;
+    height: 100vh;
 }
 
-#CO-LAG, #CO-MAG, #CO-CES, #CO-ATL, #CO-BOL, #CO-SAP, #CO-SUC, #CO-COR, #CO-CHO, #CO-ANT, #CO-NSA, #CO-SAN{
-    fill: #F1C40F;
+/* fill: rgb(199, 199, 13);
+    stroke: #2C3E50;
+    stroke-width: 2px; */
+
+#CO-LAG, #CO-CES, #CO-MAG, #CO-ATL, #CO-BOL, #CO-SUC, #CO-COR{
+    fill: #FFFF66; 
     stroke: #2C3E50;
     stroke-width: 2px;
+    cursor: pointer;
 }
 
-#CO-LAG:hover, #CO-MAG:hover, #CO-CES:hover, #CO-ATL:hover, #CO-BOL:hover, #CO-SAP:hover, #CO-SUC:hover, #CO-COR:hover, #CO-CHO:hover, #CO-ANT:hover, #CO-NSA:hover, #CO-SAN:hover{
-    fill: #7D6608;
+#CO-ANT, #CO-CAL, #CO-RIS, #CO-QUI{
+    fill: #FFFF00;
+    stroke: #2C3E50;
+    stroke-width: 2px;
+    cursor: pointer;
 }
 
-#CO-ARA, #CO-VID, #CO-CAS, #CO-BOY, #CO-MET, #CO-CUN, #CO-CAL, #CO-QUI, #CO-VAC, #CO-TOL, #CO-CAU, #CO-NAR, #CO-HUI, #CO-RIS, #CO-DC{
+#CO-CHO, #CO-VAC, #CO-CAU, #CO-NAR{
+    fill:#FFCC00;
+    stroke: #2C3E50;
+    stroke-width: 2px;
+    cursor: pointer;
+}
+
+#CO-NSA, #CO-SAN, #CO-BOY, #CO-CUN, #CO-DC{
     fill: #2980B9;
-    stroke: #D0D3D4;
+    stroke: #fff;
     stroke-width: 2px;
+    cursor: pointer;
 }
 
-#CO-ARA:hover, #CO-VID:hover, #CO-CAS:hover, #CO-BOY:hover, #CO-MET:hover, #CO-CUN:hover, #CO-CAL:hover, #CO-QUI:hover, #CO-VAC:hover, #CO-TOL:hover, #CO-CAU:hover, #CO-NAR:hover, #CO-HUI:hover, #CO-RIS:hover, #CO-DC:hover{
-    fill: #154360;
-}
-
-#CO-GUA, #CO-VAU, #CO-AMA, #CO-GUV, #CO-CAQ, #CO-PUT{
-    fill: #C0392B;
-    stroke: #D0D3D4;
+#CO-TOL, #CO-HUI, #CO-CAQ, #CO-PUT, #CO-AMA{
+    fill: rgb(50, 50, 253); 
+    stroke: #fff;
     stroke-width: 2px;
+    cursor: pointer;
 }
 
-#CO-GUA:hover, #CO-VAU:hover, #CO-AMA:hover, #CO-GUV:hover, #CO-CAQ:hover, #CO-PUT:hover{
-    fill: #641E16;
+#CO-ARA, #CO-CAS, #CO-MET, #CO-GUA, #CO-VAU, #CO-VID, #CO-GUV{
+    fill: rgb(255, 33, 33);
+    stroke: #fff;
+    stroke-width: 2px;
+    cursor: pointer;
 }
-
 

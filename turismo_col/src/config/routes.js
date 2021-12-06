@@ -4,7 +4,7 @@ import userLayout from "../layout/userLayout";
 //VIEWS
 import Home from "../views/Home";
 import E404 from "../views/E404";
-import Login from "../views/Login/Login";
+import Sitios from "../views/sitios/Sitios";
 //MAPEO DE RUTAS
 
 const routes = [
@@ -24,8 +24,8 @@ const routes = [
                 exact: true
             },
             {
-                path: "/Login",
-                component: Login,
+                path: "/Sitios",
+                component: Sitios,
                 exact: true
             },
             {

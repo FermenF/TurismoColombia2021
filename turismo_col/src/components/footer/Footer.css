@@ -1,0 +1,20 @@
+.Footer{
+    height: 70px;
+}
+
+.containerInfo{
+    background: rgba(0, 0, 0, 0.9);
+    height: 10px;
+    border-bottom: 1px solid white;
+}
+
+.Footer-bar{
+    display: flex;
+    background: #000;
+    height: 100%;
+    color: #fff;
+}
+
+.footer_items{
+    margin: auto auto;
+}

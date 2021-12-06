@@ -1,26 +1,10 @@
 import React, {useState} from "react";
 import MapCol from "../components/map/mapCol"
 import Video from "../components/video/Video";
-import { Button } from "antd";
 
 import './Home.css';
 
 export default function Home(){
-    
- const [isModalVisible, setIsModalVisible] = useState(false);
-
- const showModal = () => {
-   setIsModalVisible(true);
- };
-
- const handleOk = () => {
-   setIsModalVisible(false);
- };
-
- const handleCancel = () => {
-   setIsModalVisible(false);
- };
-    
 
     return (
         <section>
@@ -30,7 +14,7 @@ export default function Home(){
                 <div className="bar">
                     <div className="barLine"></div>
                     <div className="barLine2"></div>
-                    <div className="bar__day">01</div>
+                    <div className="bar__day">20 Julio</div>
                 </div>
                 <div className="country">
                     <h1>
@@ -43,11 +27,10 @@ export default function Home(){
             <div className="container__content">
                 <div className="content_text">
                     <div className="text_title">
-                        EXPLORE <br />
-                        COLOMBIA
+                        ITALO <br /> TRAVEL
                     </div>
                     <div className="text_button">
-                        <button>Start traveling</button>
+                        <a href="#mapa_interactivo" style={{textDecoration:"none", color:"#000", }}><button>Comianza a viajar!!</button></a>
                     </div>
                 </div>
                 <div className="content_info">
@@ -74,16 +57,20 @@ export default function Home(){
          </div>
             </section>
             <section className="contentMap">
+            <a id="mapa_interactivo"></a>
                 <MapCol />
+                <div className="contentMap__text">
+                    <div className="MAP__TITLE">
+                        EXPLORA Y DISFRUTA DE NUESTRO GRAN PAIS, <span style={{color:"yellow"}}>COLO</span><span style={{color:"blue"}}>MB</span><span style={{color:"red"}}>IA.</span>
+                    </div>
+                    <div className="MAP_INFO">
+                       Selecciona un sitio disponible en el mapa, escoge el que más te gusta y viaja.
+                    </div>
+                </div>
             </section>
             <div>
-            <Button type="primary" onClick={showModal}>
-            Open Modal
-            </Button>
-            </div>
             
-            
-           
+        </div>
         </section>
     )
 }

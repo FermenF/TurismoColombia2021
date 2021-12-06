@@ -28,6 +28,22 @@ nav{
     letter-spacing: 0.3px;
 }
 
+.nav-page:hover{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    border: 1px solid white;
+    color: #fff;
+    font-weight: 900;
+}
+
+.active{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    border: 1px solid white;
+    color: #fff;
+    font-weight: 900;
+}
+
 .nav-page a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.7);
@@ -43,46 +59,15 @@ nav{
     color: #fff;
 }
 
-.nav-page:hover{
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 3px;
-    border: 1px solid white;
-    color: #fff;
-    font-weight: 900;
-}
-
 .search{
     width: 30%;
     height: 80px;
 }
 
 .container__search{
-    display: flex;
     position: absolute;
-    margin: 22px;
+    margin: 5px 10px 0 2px;
     right: 0;
 }
 
-.iconSearch{
-    color: rgba(255, 255, 255, 0.7);
-    margin: 5px;
-    cursor: pointer;
-    right: 0;
-}
-
-.iconSearch:hover{
-    color: #fff;
-}
-
-.search__input{
-    border: none;
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.7);
-    color: black;
-    padding-left: 10px;
-}
-
-.search__input:hover{
-    background: #fff;
-}
 

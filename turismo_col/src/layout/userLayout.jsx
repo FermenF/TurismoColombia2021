@@ -13,7 +13,7 @@ export default function userLayout(props){
                 <section>
                     <LoadRoutes routes={routes} />
                 </section>
-            {/* <Footer/>  */}
+            <Footer/> 
         </div>
     )
 }

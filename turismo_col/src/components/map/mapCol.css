@@ -9,44 +9,70 @@
     stroke-width: 2px; */
 
 #CO-LAG, #CO-CES, #CO-MAG, #CO-ATL, #CO-BOL, #CO-SUC, #CO-COR{
-    fill: #FFFF66; 
+    fill: #ffff95; 
     stroke: #2C3E50;
     stroke-width: 2px;
-    cursor: pointer;
+    cursor: no-drop;
 }
 
 #CO-ANT, #CO-CAL, #CO-RIS, #CO-QUI{
-    fill: #FFFF00;
+    fill: yellow;
     stroke: #2C3E50;
     stroke-width: 2px;
-    cursor: pointer;
+    cursor: no-drop;
 }
 
 #CO-CHO, #CO-VAC, #CO-CAU, #CO-NAR{
     fill:#FFCC00;
     stroke: #2C3E50;
     stroke-width: 2px;
-    cursor: pointer;
+    cursor: no-drop;
 }
 
 #CO-NSA, #CO-SAN, #CO-BOY, #CO-CUN, #CO-DC{
     fill: #2980B9;
     stroke: #fff;
     stroke-width: 2px;
-    cursor: pointer;
+    cursor: no-drop;
 }
 
 #CO-TOL, #CO-HUI, #CO-CAQ, #CO-PUT, #CO-AMA{
     fill: rgb(50, 50, 253); 
     stroke: #fff;
     stroke-width: 2px;
-    cursor: pointer;
+    cursor: no-drop;
 }
 
 #CO-ARA, #CO-CAS, #CO-MET, #CO-GUA, #CO-VAU, #CO-VID, #CO-GUV{
     fill: rgb(255, 33, 33);
     stroke: #fff;
     stroke-width: 2px;
+    cursor: no-drop;
+}
+
+#CO-AMA, #CO-PUT{
     cursor: pointer;
 }
+
+#CO-LAG, #CO-MAG{
+    cursor: pointer;
+}
+
+#CO-VAC{
+    cursor: pointer;
+}
+
+#CO-LAG:hover, #CO-MAG:hover{
+    fill: gold;
+}
+
+#CO-AMA:hover, #CO-PUT:hover{
+    fill: darkblue;
+}
+
+#CO-VAC:hover{
+    fill:rgb(138, 118, 7);
+}
+
+
 

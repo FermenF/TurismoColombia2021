@@ -7,10 +7,12 @@ export default function Footer(){
     return (
         <section className="Footer">
             <div className="containerInfo">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nam quas voluptatum soluta deleniti officiis, iusto ab est. Nulla, ipsam! Dolores laudantium ex voluptas architecto est atque neque non quod?
+                
             </div>
             <div className="Footer-bar">
-
+                <div className="footer_items">© 2021 Italo Travel Inc.</div>
+                <div className="footer_items">Mision Tic 2021</div>
+                <div className="footer_items">UTP Hackhaton</div>
             </div>
         </section>
     )
